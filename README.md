@@ -13,7 +13,8 @@ STEP 2) Extract the directory conky-1.19.8 from the .zip file and move to:
 
 STEP 3) Install required build tools:
 
-```sudo apt install -y g++ cmake pkg-config gperf \
+```
+sudo apt install -y g++ cmake pkg-config gperf \
 libx11-dev libxinerama-dev libxft-dev libxml2-dev \
 libncurses5-dev libcurl4-openssl-dev liblua5.3-dev \
 librsvg2-dev libimlib2-dev libxdamage-dev libxext-dev \
@@ -25,14 +26,16 @@ sudo apt install libxi-dev
 
 STEP 4) Create a build folder:
 
-```mkdir build
+```
+mkdir build
 
 cd build
 ```
 
 STEP 5) Configure with dependencies:
 
- ``` cmake .. \
+ ```
+cmake .. \
   -DBUILD_X11=ON \
   -DBUILD_CAIRO=ON \
   -DBUILD_LUA_CAIRO=ON \
@@ -43,14 +46,17 @@ STEP 5) Configure with dependencies:
 
 STEP 6) Build & Install:
 
-```make -j$(nproc)
+```
+make -j$(nproc)
 ```
 
-```sudo make install
+```
+sudo make install
 ```
 STEP 7) Verify:
 
-```conky -v
+```
+conky -v
 ```
 
 you should see output like this:
