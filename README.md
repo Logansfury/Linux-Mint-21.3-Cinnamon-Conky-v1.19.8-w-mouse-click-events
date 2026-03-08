@@ -61,7 +61,7 @@ conky -v
 
 you should see output like this:
 
-
+```
 conky 1.19.8_pre compiled for Linux x86_64
 
 Compiled in features:
@@ -110,3 +110,4 @@ Package library path: /usr/local/lib/conky
   * Maximum netdevices: 256
   * Maximum text size: 16384
   * Size text buffer: 256
+```
