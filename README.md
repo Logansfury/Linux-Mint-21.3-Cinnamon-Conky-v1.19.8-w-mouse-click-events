@@ -41,6 +41,7 @@ cmake .. \
   -DBUILD_LUA_CAIRO=ON \
   -DBUILD_LUA_IMLIB2=OFF \
   -DBUILD_IMLIB2=ON \
+  -DBUILD_WLAN=ON \
   -DCMAKE_BUILD_TYPE=Release
 ```
 
