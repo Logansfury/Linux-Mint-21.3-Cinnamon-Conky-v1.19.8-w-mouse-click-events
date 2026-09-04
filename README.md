@@ -80,6 +80,7 @@ Package library path: /usr/local/lib/conky
   * builtin default configuration
   * old configuration syntax
   * Imlib2
+  * Wireless
   * OSS mixer support
   * apcupsd
   * iostats
